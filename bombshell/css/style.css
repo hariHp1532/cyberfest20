@@ -1,0 +1,527 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.puzzle {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226797/puzzle/_Puzzle_bg_unsolved.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 868px;
+  height: 579px;
+  position: relative;
+  
+}
+
+.piece, .piece-container {
+   width: 110px;
+  height: 95px;
+
+}
+
+.piece {
+  margin: 1.12px 0;
+  cursor: pointer;
+}
+
+.col {
+  width: 110px;
+ display: inline-block;
+  margin: 0 24px  0 30px;
+
+}
+
+.col1 {
+    position: absolute;
+    left: 11px;
+    top: 46px;
+}
+
+
+.col2 {
+    position: absolute;
+    left: 179px;
+    top: 47px;
+}
+
+.col3 {
+    position: absolute;
+    left: 347px;
+    top: 46px;
+}
+
+
+.col4 {
+    position: absolute;
+    left: 515px;
+    top: 46px;
+}
+
+.col5 {
+    position: absolute;
+    left: 683px;
+    top: 46px;
+}
+
+.col6 {
+    position: absolute;
+    left: 94px;
+    top: 94px;
+}
+
+
+.col7 {
+    position: absolute;
+    left: 263px;
+    top: 94px;
+}
+
+.col8 {
+    position: absolute;
+    left: 431px;
+    top: 94px;
+}
+
+.col9 {
+    position: absolute;
+    left: 599px;
+    top: 94px;
+}
+
+.piece05 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_5.png');
+  background-size: contain;
+}
+
+.piece06 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_6.png');
+  background-size: contain;
+}
+
+.piece07 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_7.png');
+   background-size: contain;
+}
+
+.piece08 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_8.png');
+ background-size: contain;
+
+}
+
+.piece09 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_9.png');
+ background-size: contain;
+}
+
+
+.piece10 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_10.png');
+ background-size: contain;
+}
+
+.piece11 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_11.png');
+ background-size: contain;
+}
+
+.piece12 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_12.png');
+ background-size: contain;
+}
+
+.piece13 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_13.png');
+ background-size: contain;
+}
+
+.piece14 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_14.png');
+ background-size: contain;
+}
+
+
+
+
+.piece15 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_15.png');
+ background-size: contain;
+}
+
+.piece16 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_16.png');
+ background-size: contain;
+}
+
+.piece17 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_17.png');
+ background-size: contain;
+}
+
+.piece18 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_18.png');
+ background-size: contain;
+}
+
+.piece19 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_19.png');
+ background-size: contain;
+}
+
+
+.piece20 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_20.png');
+ background-size: contain;
+}
+
+.piece21 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_21.png');
+ background-size: contain;
+}
+
+.piece22 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_22.png');
+ background-size: contain;
+}
+
+.piece23 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_23.png');
+ background-size: contain;
+}
+
+.piece24 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_24.png');
+ background-size: contain;
+}
+
+
+
+.piece25 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_25.png');
+ background-size: contain;
+}
+
+.piece26 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_26.png');
+ background-size: contain;
+}
+
+.piece27 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_27.png');
+ background-size: contain;
+}
+
+.piece28 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_28.png');
+ background-size: contain;
+}
+
+.piece29 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_29.png');
+ background-size: contain;
+}
+
+
+.piece30 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_30.png');
+ background-size: contain;
+}
+
+.piece31 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_31.png');
+ background-size: contain;
+}
+
+.piece32 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_32.png');
+ background-size: contain;
+}
+
+.piece33 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_33.png');
+ background-size: contain;
+}
+
+.piece34 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_34.png');
+ background-size: contain;
+}
+
+
+
+.piece35 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_35.png');
+ background-size: contain;
+}
+
+.piece36 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_36.png');
+ background-size: contain;
+}
+
+.piece37 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_37.png');
+ background-size: contain;
+}
+
+.piece38 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_38.png');
+ background-size: contain;
+}
+
+.piece39 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_39.png');
+ background-size: contain;
+}
+
+
+.piece40 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_40.png');
+ background-size: contain;
+}
+
+.piece41 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_41.png');
+ background-size: contain;
+}
+
+.piece42 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_42.png');
+ background-size: contain;
+}
+
+.piece43 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_43.png');
+ background-size: contain;
+}
+
+.piece44 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_44.png');
+ background-size: contain;
+}
+
+.piece45 {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226796/puzzle/Group_45.png');
+ background-size: contain;
+}
+
+
+
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  padding: .8em 1.618em;
+}
+
+.puzzle-title {
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.drop-zone {
+  height: 579px;
+  margin: 0 auto;
+  position: relative;
+  width: 868px;
+}
+
+.solved {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226797/puzzle/_Puzzle_solved.png');
+}
+
+.unsolved {
+  background-image: url('https://res.cloudinary.com/dcuvoemqb/image/upload/v1488226797/puzzle/_Puzzle_bg_unsolved.png');
+}
+
+.solved-puzzle {
+    background-size: 100%;
+    position: absolute;
+    width: 868px;
+    height: 579px;
+    right: 0px;
+    top: 0px;
+    z-index: 200;
+}
+
+.control-container {
+  bottom: 2px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 868px;
+  z-index: 400;
+  overflow: hidden;
+}
+
+.hide-element {
+  display: none;
+}
+
+.scramble-button {
+  background: #dade99;
+  margin: 0 auto !important;
+  display: inline-block;
+}
+
+.hint-button,
+.reset-button {
+  color: #979269;
+  background-color: #6d6B5b;
+  border: none;
+  border-radius: 3px;
+  float: left;
+  font-size: 16px;
+  margin-left: .7em;
+  text-align: center;
+  width: 100px;
+  padding: .8em 1.618em;
+}
+
+
+.hide-element:hover, 
+.scramble-button:hover,
+.difficulty_button:hover {
+  cursor: pointer;
+}
+
+.timer {
+  /*color: #979269;*/
+  color: black;
+  background-color: #6d6B5b;
+  border: none;
+  border-radius: 3px;
+  float: right;
+  font-size: 16px;
+  height: 2.75em;
+  margin-right: .7em;
+  text-align: center;
+  width: 100px;
+  padding: .8em 1.618em;
+}
+
+.pieces-tray {
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  width: 868px;
+}
+
+
+
+/*==================================
+ANIMATIONS
+===================================*/
+
+/***** Shake Animations ******/
+.animate,
+.animate_horizontal,
+.animate_vertical,
+.animate_rotate,
+.animate_crazy {
+  transform-origin: center center;
+  animation-play-state: running;
+}
+
+@keyframes animate {
+  20% { transform: translate(-0.5px, -0.5px) rotate(-0.5deg); }
+  40% { transform: translate(2.5px, 0.5px) rotate(0.5deg); }
+  60% { transform: translate(-1.5px, 0.5px) rotate(0.5deg); }
+  80% { transform: translate(-1.5px, 1.5px) rotate(-0.5deg); }
+  0%, 100% { transform: translate(0, 0) rotate(0); } }
+
+.animate {
+  animation: animate 100ms ease-in-out 0s infinite;
+}
+
+@keyframes animate_horizontal {
+  20% { transform: translate(20px, 0) rotate(0); }
+  40% { transform: translate(0px, 0) rotate(0); }
+  60% { transform: translate(4px, 0) rotate(0); }
+  80% { transform: translate(-16px, 0) rotate(0); }
+  0%, 100% { transform: translate(0, 0) rotate(0); }
+}
+
+.animate_horizontal {
+  animation: animate_horizontal 250ms ease-out 0s infinite;
+}
+
+@keyframes animate_vertical {
+  20% { transform: translate(0, -18px) rotate(0); }
+  40% { transform: translate(0, -8px) rotate(0); }
+  60% { transform: translate(0, 0px) rotate(0); }
+  80% { transform: translate(0, 8px) rotate(0); }
+  0%, 100% { transform: translate(0, 0) rotate(0); }
+}
+
+.animate_vertical {
+  animation: animate_vertical 150ms ease-in 0s infinite;
+}
+
+@keyframes animate_rotate {
+  20% { transform: translate(0, 0) rotate(15deg); }
+  40% { transform: translate(0, 0) rotate(-9deg); }
+  60% { transform: translate(0, 0) rotate(7deg); }
+  80% { transform: translate(0, 0) rotate(3deg); }
+  0%, 100% { transform: translate(0, 0) rotate(0); }
+}
+
+.animate_rotate {
+  animation: animate_rotate 200ms ease 0s infinite;
+}
+
+@keyframes animate_crazy {
+  20% { transform: translate(17px, -8px) rotate(8deg); }
+  40% { transform: translate(16px, 14px) rotate(1deg); }
+  60% { transform: translate(13px, -10px) rotate(-4deg); }
+  80% { transform: translate(11px, -18px) rotate(8deg); }
+  0%, 100% { transform: translate(0, 0) rotate(0); }
+}
+
+.animate_crazy {
+  animation: animate_crazy 100ms ease 0s infinite;
+}
+
+
+
+
+.customAlert{
+	
+  display: none;
+  position: fixed;
+  max-width: 25%;
+  min-width: 250px !important;
+  min-height: 20%;
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: -12.5%;
+  margin-top: -5.2%;
+  background: #088A68;
+  
+  @media all and (max-width: 1300px){
+    .message{
+      font-size: 14px !important;
+	  }
+    input[type='button']{
+      height: 15% !important;
+    }
+  }
+  
+  .message{
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  }
